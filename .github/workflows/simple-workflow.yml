@@ -37,3 +37,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo another run in multiple runtime
+      - name: Run another multi line command on shell
+        run: |
+          echo hello new multi line command
+          echo hello again another multi line command
